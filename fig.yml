@@ -1,0 +1,14 @@
+irc:
+    build: ./irc
+    ports:
+     - "6667:6667"
+
+git:
+    build: ./git
+    ports:
+     - "22:22"
+
+gitlist:
+    build: ./gitlist
+    ports:
+     - "80:80"
